@@ -133,7 +133,6 @@ const initApp = () => {
     .then(data => {
         products = data;
         addDataToHTML();
-
         // get data cart from memory
         if(localStorage.getItem('cart')){
             cart = JSON.parse(localStorage.getItem('cart'));
