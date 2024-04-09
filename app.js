@@ -16,10 +16,8 @@ closeCart.addEventListener('click', () => {
 })
 
     const addDataToHTML = () => {
-    // remove datas default from HTML
-
-        // add new datas
-        if(products.length > 0) // if has data
+    
+        if(products.length > 0)
         {
             products.forEach(product => {
                 let newProduct = document.createElement('div');
